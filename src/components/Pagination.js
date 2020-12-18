@@ -2,10 +2,10 @@ import React from 'react';
 
 export default function Pagination() {
   return (
-    <div class='bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6'>
+    <div class='bg-white px-4 py-3 flex items-center justify-between sm:px-6'>
       <div class='flex-1 flex justify-between sm:hidden'>
         <a
-          href='#previousBtn'
+          href='#previous'
           class='relative inline-flex items-center px-4 py-2 border border-gray-300 text-sm font-medium rounded-md text-gray-700 bg-white hover:text-gray-500'
         >
           Previous
@@ -21,11 +21,11 @@ export default function Pagination() {
         <div>
           <p class='text-sm text-gray-700'>
             Showing
-            <span class='font-medium'>1</span>
+            <span class='font-medium'> 1 </span>
             to
-            <span class='font-medium'>10</span>
+            <span class='font-medium'> 10 </span>
             of
-            <span class='font-medium'>97</span>
+            <span class='font-medium'> 97 </span>
             results
           </p>
         </div>
